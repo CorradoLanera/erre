@@ -1,0 +1,5 @@
+Package: erre
+Title: Erre, un libro per imparare R
+Version: sett 2019
+Imports: bookdown
+Remotes: rstudio/bookdown

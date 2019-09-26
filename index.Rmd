@@ -15,13 +15,13 @@ description: "Un libro per imparare R, imparandolo in ottica di lungo periodo."
 options(
     htmltools.dir.version = FALSE,
     formatR.indent = 4,
-    width = 72,
+    width = 56,
     digits = 4
 )
 
 # install the packages needed by this book; you fill out c(), e.g. c('ggplot2', 'dplyr')
 pkgs <- c(
-    .packages(), 'tidyverse', 'xfun', 'knitr', 'bookdown', 'rmarkdown',
+    .packages(), 'tidyverse', 'xfun', 'knitr', 'bookdown', 'rmarkdown'
 )
 
 lapply(pkgs, function(pkg) {

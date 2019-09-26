@@ -1,5 +1,6 @@
 book_filename: "erre"
 delete_merged_file: true
+newsession: yes
 language:
   ui:
     chapter_name: "Capitolo "
