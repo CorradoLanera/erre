@@ -1,0 +1,40 @@
+# Stile, flusso di lavoro e buone pratiche {#buonepratiche}
+
+## Stile
+
+## Tu, domani
+> codice facile da capire
+
+## Nominare gli oggetti
+> janitor
+
+## Organizzazione del codice
+
+## Commenti
+> Roxygen e knitr
+
+## progetti
+
+## Flussi di lavoro
+
+## Il _pipe_
+
+## Ricerca riproducibile
+
+### R Markdown
+
+### Bookdown
+
+### Esempi riproducibili
+
+## Il _tidyverse_
+
+## Semplificare i cicli
+
+## Vettorializzare il codice
+
+## Espressioni giganti
+
+## Una cosa per volta
+
+## Scrivere meno codice

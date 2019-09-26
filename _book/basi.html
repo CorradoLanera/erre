@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capitolo 2 Le basi | Erre</title>
+  <meta name="description" content="Un libro per imparare R, imparandolo in ottica di lungo periodo." />
+  <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capitolo 2 Le basi | Erre" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Un libro per imparare R, imparandolo in ottica di lungo periodo." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capitolo 2 Le basi | Erre" />
+  
+  <meta name="twitter:description" content="Un libro per imparare R, imparandolo in ottica di lungo periodo." />
+  
+
+<meta name="author" content="Corrado Lanera" />
+
+
+<meta name="date" content="2019-09-25" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="buonepratiche.html"/>
+<script src="libs/jquery/jquery.min.js"></script>
+<link href="libs/gitbook/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Erre, un libro per imparare R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Preambolo</a></li>
+<li class="chapter" data-level="2" data-path="basi.html"><a href="basi.html"><i class="fa fa-check"></i><b>2</b> Le basi</a><ul>
+<li class="chapter" data-level="2.1" data-path="basi.html"><a href="basi.html#cose-r"><i class="fa fa-check"></i><b>2.1</b> Cos’è R</a></li>
+<li class="chapter" data-level="2.2" data-path="basi.html"><a href="basi.html#installazione"><i class="fa fa-check"></i><b>2.2</b> Installazione</a></li>
+<li class="chapter" data-level="2.3" data-path="basi.html"><a href="basi.html#editor"><i class="fa fa-check"></i><b>2.3</b> Editor</a></li>
+<li class="chapter" data-level="2.4" data-path="basi.html"><a href="basi.html#interazione-e-programmazione"><i class="fa fa-check"></i><b>2.4</b> Interazione e Programmazione</a></li>
+<li class="chapter" data-level="2.5" data-path="basi.html"><a href="basi.html#pacchetti-e-librerie"><i class="fa fa-check"></i><b>2.5</b> Pacchetti (e librerie)</a></li>
+<li class="chapter" data-level="2.6" data-path="basi.html"><a href="basi.html#trovare-aiuto"><i class="fa fa-check"></i><b>2.6</b> Trovare aiuto</a></li>
+<li class="chapter" data-level="2.7" data-path="basi.html"><a href="basi.html#sintassi-base"><i class="fa fa-check"></i><b>2.7</b> Sintassi base</a></li>
+<li class="chapter" data-level="2.8" data-path="basi.html"><a href="basi.html#strutture-di-base"><i class="fa fa-check"></i><b>2.8</b> Strutture di base</a></li>
+<li class="chapter" data-level="2.9" data-path="basi.html"><a href="basi.html#strutture-di-base-avanzato"><i class="fa fa-check"></i><b>2.9</b> Strutture di base (avanzato)</a></li>
+<li class="chapter" data-level="2.10" data-path="basi.html"><a href="basi.html#sottoselezione"><i class="fa fa-check"></i><b>2.10</b> Sottoselezione</a></li>
+<li class="chapter" data-level="2.11" data-path="basi.html"><a href="basi.html#funzioni-utilizzo"><i class="fa fa-check"></i><b>2.11</b> Funzioni (utilizzo)</a></li>
+<li class="chapter" data-level="2.12" data-path="basi.html"><a href="basi.html#oggetti"><i class="fa fa-check"></i><b>2.12</b> Oggetti</a></li>
+<li class="chapter" data-level="2.13" data-path="basi.html"><a href="basi.html#ambienti"><i class="fa fa-check"></i><b>2.13</b> Ambienti</a></li>
+<li class="chapter" data-level="2.14" data-path="basi.html"><a href="basi.html#debug"><i class="fa fa-check"></i><b>2.14</b> Debug</a></li>
+<li class="chapter" data-level="2.15" data-path="basi.html"><a href="basi.html#programmare-in-difesa"><i class="fa fa-check"></i><b>2.15</b> Programmare in difesa</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="buonepratiche.html"><a href="buonepratiche.html"><i class="fa fa-check"></i><b>3</b> Stile, flusso di lavoro e buone pratiche</a><ul>
+<li class="chapter" data-level="3.1" data-path="buonepratiche.html"><a href="buonepratiche.html#stile"><i class="fa fa-check"></i><b>3.1</b> Stile</a></li>
+<li class="chapter" data-level="3.2" data-path="buonepratiche.html"><a href="buonepratiche.html#tu-domani"><i class="fa fa-check"></i><b>3.2</b> Tu, domani</a></li>
+<li class="chapter" data-level="3.3" data-path="buonepratiche.html"><a href="buonepratiche.html#nominare-gli-oggetti"><i class="fa fa-check"></i><b>3.3</b> Nominare gli oggetti</a></li>
+<li class="chapter" data-level="3.4" data-path="buonepratiche.html"><a href="buonepratiche.html#organizzazione-del-codice"><i class="fa fa-check"></i><b>3.4</b> Organizzazione del codice</a></li>
+<li class="chapter" data-level="3.5" data-path="buonepratiche.html"><a href="buonepratiche.html#commenti"><i class="fa fa-check"></i><b>3.5</b> Commenti</a></li>
+<li class="chapter" data-level="3.6" data-path="buonepratiche.html"><a href="buonepratiche.html#progetti"><i class="fa fa-check"></i><b>3.6</b> progetti</a></li>
+<li class="chapter" data-level="3.7" data-path="buonepratiche.html"><a href="buonepratiche.html#flussi-di-lavoro"><i class="fa fa-check"></i><b>3.7</b> Flussi di lavoro</a></li>
+<li class="chapter" data-level="3.8" data-path="buonepratiche.html"><a href="buonepratiche.html#il-pipe"><i class="fa fa-check"></i><b>3.8</b> Il <em>pipe</em></a></li>
+<li class="chapter" data-level="3.9" data-path="buonepratiche.html"><a href="buonepratiche.html#ricerca-riproducibile"><i class="fa fa-check"></i><b>3.9</b> Ricerca riproducibile</a><ul>
+<li class="chapter" data-level="3.9.1" data-path="buonepratiche.html"><a href="buonepratiche.html#r-markdown"><i class="fa fa-check"></i><b>3.9.1</b> R Markdown</a></li>
+<li class="chapter" data-level="3.9.2" data-path="buonepratiche.html"><a href="buonepratiche.html#bookdown"><i class="fa fa-check"></i><b>3.9.2</b> Bookdown</a></li>
+<li class="chapter" data-level="3.9.3" data-path="buonepratiche.html"><a href="buonepratiche.html#esempi-riproducibili"><i class="fa fa-check"></i><b>3.9.3</b> Esempi riproducibili</a></li>
+</ul></li>
+<li class="chapter" data-level="3.10" data-path="buonepratiche.html"><a href="buonepratiche.html#il-tidyverse"><i class="fa fa-check"></i><b>3.10</b> Il <em>tidyverse</em></a></li>
+<li class="chapter" data-level="3.11" data-path="buonepratiche.html"><a href="buonepratiche.html#semplificare-i-cicli"><i class="fa fa-check"></i><b>3.11</b> Semplificare i cicli</a></li>
+<li class="chapter" data-level="3.12" data-path="buonepratiche.html"><a href="buonepratiche.html#vettorializzare-il-codice"><i class="fa fa-check"></i><b>3.12</b> Vettorializzare il codice</a></li>
+<li class="chapter" data-level="3.13" data-path="buonepratiche.html"><a href="buonepratiche.html#espressioni-giganti"><i class="fa fa-check"></i><b>3.13</b> Espressioni giganti</a></li>
+<li class="chapter" data-level="3.14" data-path="buonepratiche.html"><a href="buonepratiche.html#una-cosa-per-volta"><i class="fa fa-check"></i><b>3.14</b> Una cosa per volta</a></li>
+<li class="chapter" data-level="3.15" data-path="buonepratiche.html"><a href="buonepratiche.html#scrivere-meno-codice"><i class="fa fa-check"></i><b>3.15</b> Scrivere meno codice</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html"><i class="fa fa-check"></i><b>4</b> Analisi di dati (#analisidati)</a><ul>
+<li class="chapter" data-level="4.1" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#impostare-un-progetto-di-analisi"><i class="fa fa-check"></i><b>4.1</b> Impostare un progetto di analisi</a></li>
+<li class="chapter" data-level="4.2" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#importare-dati"><i class="fa fa-check"></i><b>4.2</b> Importare dati</a></li>
+<li class="chapter" data-level="4.3" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#esportare-dati"><i class="fa fa-check"></i><b>4.3</b> Esportare dati</a></li>
+<li class="chapter" data-level="4.4" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#fattori"><i class="fa fa-check"></i><b>4.4</b> Fattori</a></li>
+<li class="chapter" data-level="4.5" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#date"><i class="fa fa-check"></i><b>4.5</b> Date</a></li>
+<li class="chapter" data-level="4.6" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#stringhe"><i class="fa fa-check"></i><b>4.6</b> Stringhe</a></li>
+<li class="chapter" data-level="4.7" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#il-formato-tidy"><i class="fa fa-check"></i><b>4.7</b> Il formato <em>tidy</em></a></li>
+<li class="chapter" data-level="4.8" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#grafica"><i class="fa fa-check"></i><b>4.8</b> Grafica</a></li>
+<li class="chapter" data-level="4.9" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#modelli"><i class="fa fa-check"></i><b>4.9</b> Modelli</a><ul>
+<li class="chapter" data-level="4.9.1" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#formule"><i class="fa fa-check"></i><b>4.9.1</b> Formule</a></li>
+</ul></li>
+<li class="chapter" data-level="4.10" data-path="analisi-di-dati-analisidati.html"><a href="analisi-di-dati-analisidati.html#shiny"><i class="fa fa-check"></i><b>4.10</b> Shiny</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="strumenti.html"><a href="strumenti.html"><i class="fa fa-check"></i><b>5</b> Strumenti</a><ul>
+<li class="chapter" data-level="5.1" data-path="strumenti.html"><a href="strumenti.html#gestire-i-log"><i class="fa fa-check"></i><b>5.1</b> Gestire i log</a></li>
+<li class="chapter" data-level="5.2" data-path="strumenti.html"><a href="strumenti.html#barra-di-avanzamento"><i class="fa fa-check"></i><b>5.2</b> Barra di avanzamento</a></li>
+<li class="chapter" data-level="5.3" data-path="strumenti.html"><a href="strumenti.html#segnali-acustici"><i class="fa fa-check"></i><b>5.3</b> Segnali acustici</a></li>
+<li class="chapter" data-level="5.4" data-path="strumenti.html"><a href="strumenti.html#notifche-automatiche-bot"><i class="fa fa-check"></i><b>5.4</b> Notifche automatiche (bot)</a></li>
+<li class="chapter" data-level="5.5" data-path="strumenti.html"><a href="strumenti.html#gestire-altre-pigne"><i class="fa fa-check"></i><b>5.5</b> Gestire altre <em>pigne</em></a></li>
+<li class="chapter" data-level="5.6" data-path="strumenti.html"><a href="strumenti.html#scorciatoie-di-rstudio"><i class="fa fa-check"></i><b>5.6</b> Scorciatoie di RStudio</a></li>
+<li class="chapter" data-level="5.7" data-path="strumenti.html"><a href="strumenti.html#le-cheetsheets"><i class="fa fa-check"></i><b>5.7</b> Le <em>cheetsheets</em></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="approfondimenti.html"><a href="approfondimenti.html"><i class="fa fa-check"></i><b>6</b> Approfondimenti</a><ul>
+<li class="chapter" data-level="6.1" data-path="approfondimenti.html"><a href="approfondimenti.html#programmazione-funzionale"><i class="fa fa-check"></i><b>6.1</b> Programmazione funzionale</a></li>
+<li class="chapter" data-level="6.2" data-path="approfondimenti.html"><a href="approfondimenti.html#memoizzazione"><i class="fa fa-check"></i><b>6.2</b> Memoizzazione</a></li>
+<li class="chapter" data-level="6.3" data-path="approfondimenti.html"><a href="approfondimenti.html#prestazioni"><i class="fa fa-check"></i><b>6.3</b> Prestazioni</a></li>
+<li class="chapter" data-level="6.4" data-path="approfondimenti.html"><a href="approfondimenti.html#ottimizzazione"><i class="fa fa-check"></i><b>6.4</b> Ottimizzazione</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sviluppo.html"><a href="sviluppo.html"><i class="fa fa-check"></i><b>7</b> Sviluppo</a><ul>
+<li class="chapter" data-level="7.1" data-path="sviluppo.html"><a href="sviluppo.html#una-cosa-alla-volta"><i class="fa fa-check"></i><b>7.1</b> Una cosa alla volta</a></li>
+<li class="chapter" data-level="7.2" data-path="sviluppo.html"><a href="sviluppo.html#costruire-e-pianificare-le-funzioni"><i class="fa fa-check"></i><b>7.2</b> Costruire e pianificare le funzioni</a></li>
+<li class="chapter" data-level="7.3" data-path="sviluppo.html"><a href="sviluppo.html#git-e-github"><i class="fa fa-check"></i><b>7.3</b> git e GitHub</a></li>
+<li class="chapter" data-level="7.4" data-path="sviluppo.html"><a href="sviluppo.html#integrazione-continua"><i class="fa fa-check"></i><b>7.4</b> Integrazione Continua</a></li>
+<li class="chapter" data-level="7.5" data-path="sviluppo.html"><a href="sviluppo.html#sviluppo-guidato-dai-test"><i class="fa fa-check"></i><b>7.5</b> Sviluppo guidato dai test</a></li>
+<li class="chapter" data-level="7.6" data-path="sviluppo.html"><a href="sviluppo.html#test-per-lo-sviluppo-e-lesecuzione"><i class="fa fa-check"></i><b>7.6</b> Test (per lo sviluppo e l’esecuzione)</a></li>
+<li class="chapter" data-level="7.7" data-path="sviluppo.html"><a href="sviluppo.html#etica-e-programmazione"><i class="fa fa-check"></i><b>7.7</b> Etica e programmazione</a></li>
+<li class="chapter" data-level="7.8" data-path="sviluppo.html"><a href="sviluppo.html#commenti-roxygen2"><i class="fa fa-check"></i><b>7.8</b> Commenti <em>roxygen2</em></a></li>
+<li class="chapter" data-level="7.9" data-path="sviluppo.html"><a href="sviluppo.html#pacchetti-utili"><i class="fa fa-check"></i><b>7.9</b> Pacchetti utili</a><ul>
+<li class="chapter" data-level="7.9.1" data-path="sviluppo.html"><a href="sviluppo.html#devtools"><i class="fa fa-check"></i><b>7.9.1</b> <code>devtools</code></a></li>
+<li class="chapter" data-level="7.9.2" data-path="sviluppo.html"><a href="sviluppo.html#usethis"><i class="fa fa-check"></i><b>7.9.2</b> <code>usethis</code></a></li>
+</ul></li>
+<li class="chapter" data-level="7.10" data-path="sviluppo.html"><a href="sviluppo.html#creare-pacchetti"><i class="fa fa-check"></i><b>7.10</b> Creare pacchetti</a></li>
+<li class="chapter" data-level="7.11" data-path="sviluppo.html"><a href="sviluppo.html#rstudio-server"><i class="fa fa-check"></i><b>7.11</b> RStudio Server</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Erre</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="basi" class="section level1">
+<h1><span class="header-section-number">Capitolo 2</span> Le basi</h1>
+<div id="cose-r" class="section level2">
+<h2><span class="header-section-number">2.1</span> Cos’è R</h2>
+</div>
+<div id="installazione" class="section level2">
+<h2><span class="header-section-number">2.2</span> Installazione</h2>
+</div>
+<div id="editor" class="section level2">
+<h2><span class="header-section-number">2.3</span> Editor</h2>
+</div>
+<div id="interazione-e-programmazione" class="section level2">
+<h2><span class="header-section-number">2.4</span> Interazione e Programmazione</h2>
+</div>
+<div id="pacchetti-e-librerie" class="section level2">
+<h2><span class="header-section-number">2.5</span> Pacchetti (e librerie)</h2>
+</div>
+<div id="trovare-aiuto" class="section level2">
+<h2><span class="header-section-number">2.6</span> Trovare aiuto</h2>
+</div>
+<div id="sintassi-base" class="section level2">
+<h2><span class="header-section-number">2.7</span> Sintassi base</h2>
+</div>
+<div id="strutture-di-base" class="section level2">
+<h2><span class="header-section-number">2.8</span> Strutture di base</h2>
+</div>
+<div id="strutture-di-base-avanzato" class="section level2">
+<h2><span class="header-section-number">2.9</span> Strutture di base (avanzato)</h2>
+</div>
+<div id="sottoselezione" class="section level2">
+<h2><span class="header-section-number">2.10</span> Sottoselezione</h2>
+</div>
+<div id="funzioni-utilizzo" class="section level2">
+<h2><span class="header-section-number">2.11</span> Funzioni (utilizzo)</h2>
+</div>
+<div id="oggetti" class="section level2">
+<h2><span class="header-section-number">2.12</span> Oggetti</h2>
+</div>
+<div id="ambienti" class="section level2">
+<h2><span class="header-section-number">2.13</span> Ambienti</h2>
+</div>
+<div id="debug" class="section level2">
+<h2><span class="header-section-number">2.14</span> Debug</h2>
+</div>
+<div id="programmare-in-difesa" class="section level2">
+<h2><span class="header-section-number">2.15</span> Programmare in difesa</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="buonepratiche.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook/js/app.min.js"></script>
+<script src="libs/gitbook/js/lunr.js"></script>
+<script src="libs/gitbook/js/plugin-search.js"></script>
+<script src="libs/gitbook/js/plugin-sharing.js"></script>
+<script src="libs/gitbook/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["erre.pdf", "erre.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

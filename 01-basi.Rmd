@@ -1,0 +1,31 @@
+# Le basi {#basi}
+
+## Cos'è R
+
+## Installazione
+ 
+## Editor
+
+## Interazione e Programmazione
+
+## Pacchetti (e librerie)
+
+## Trovare aiuto
+
+## Sintassi base
+
+## Strutture di base
+
+## Strutture di base (avanzato)
+
+## Sottoselezione
+
+## Funzioni (utilizzo)
+
+## Oggetti
+
+## Ambienti
+
+## Debug
+
+## Programmare in difesa

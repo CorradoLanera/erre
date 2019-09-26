@@ -1,0 +1,21 @@
+# Strumenti {#strumenti}
+
+## Gestire i log
+> logr
+
+## Barra di avanzamento
+> progress
+
+## Segnali acustici
+> beepr
+
+## Notifche automatiche (bot)
+> telegram.bot
+
+## Gestire altre _pigne_
+> depigner
+
+## Scorciatoie di RStudio
+
+## Le _cheetsheets_
+

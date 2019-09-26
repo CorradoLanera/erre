@@ -1,0 +1,55 @@
+--- 
+title: "Erre"
+subtitle: "Un libro per imparare R"
+author: "Corrado Lanera"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Un libro per imparare R, imparandolo in ottica di lungo periodo."
+---
+
+```{r setup, include=FALSE}
+options(
+    htmltools.dir.version = FALSE,
+    formatR.indent = 4,
+    width = 72,
+    digits = 4
+)
+
+# install the packages needed by this book; you fill out c(), e.g. c('ggplot2', 'dplyr')
+pkgs <- c(
+    .packages(), 'tidyverse', 'xfun', 'knitr', 'bookdown', 'rmarkdown',
+)
+
+lapply(pkgs, function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+
+knitr::write_bib(pkgs, "packages.bib")
+```
+
+# Prefazione {-}
+
+
+## Perchè leggere questo libro {-}
+
+## Struttura del libro {-}
+
+## Come leggere questo libro {-}
+
+## Programmi e pacchetti utilizzati, e convenzioni {-}
+
+Ho usato i pacchetti **knitr**\index{knitr} [@xie2015] e **bookdown**\index{bookdown} [@R-bookdown] per compilare il libro.
+Le informazioni sulla sessione di R sono riportate di seguito:
+
+```{r}
+xfun::session_info()
+```
+
+I nomi dei pacchetti saranno sempre riportati in grassetto e tra graffe (per esempio: **{rmarkdown}**), codice in linea e nomi o indirizzi di file saranno riportati con carattere telescrivente (per esempio: `knitr::knit('foo.Rmd')`). I nomi delle funzioni saranno sempre seguiti dalle parentesi (per esempio: `bookdown::render_book()`).
+
+## Ringraziamenti {-}
+

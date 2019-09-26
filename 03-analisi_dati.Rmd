@@ -1,0 +1,24 @@
+# Analisi di dati (#analisidati)
+
+## Impostare un progetto di analisi
+
+## Importare dati
+
+## Esportare dati
+
+## Fattori
+
+## Date
+
+## Stringhe
+
+## Il formato _tidy_
+
+## Grafica
+
+## Modelli
+> rms, broom
+
+### Formule
+
+## Shiny

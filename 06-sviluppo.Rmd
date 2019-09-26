@@ -1,0 +1,27 @@
+# Sviluppo {#sviluppo}
+
+## Una cosa alla volta
+
+## Costruire e pianificare le funzioni
+
+## git e GitHub
+
+## Integrazione Continua
+
+## Sviluppo guidato dai test
+
+## Test (per lo sviluppo e l'esecuzione)
+
+## Etica e programmazione
+
+## Commenti _roxygen2_
+
+## Pacchetti utili
+
+### `devtools`
+
+### `usethis`
+
+## Creare pacchetti
+
+## RStudio Server
